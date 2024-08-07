@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    width: 60%;
+    height: 70%;
+    background-image: url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    
+}
+
+.bar1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one{
+    width: 30%;
+    height: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.one1{
+    width: 70%;
+    height: 50%;
+    margin-left: 65px;
+    text-align: right;
+    border-left: 3px solid white;
+    
+}
+
+.one h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0.1rem;
+    color: white;
+}
+
+.one p{
+    font-size: 10px;
+    margin-top: 0.2rem;
+    margin-right: 20px;
+    color: rgb(195, 186, 186);
+}
+
+.one2{
+    width: 100%;
+    height: 40%;
+}
+
+
+
+.two{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+
+.bar2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.two1{
+    width: 100%;
+    height: 20%;
+}
+
+.two2{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two3{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(10, 235, 10);
+}
+
+.t22{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    opacity: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+
+.t22 p{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.sc{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.sc1{
+    width: 33%;
+    height: 30%;
+    font-size: 11px;
+    border-right: 1.5px solid white ;
+
+    
+}
+
+.sc2{
+    width: 33%;
+    height: 30%;
+    font-size: 11px;
+    border-right: 1.5px solid white ;
+    
+}
+.sc3{
+    width: 33%;
+    height: 30%;
+    font-size: 11px;
+}
+
+
+
+
